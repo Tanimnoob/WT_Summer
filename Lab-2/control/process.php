@@ -42,7 +42,7 @@ if(isset($_POST['submit']))
     
 }
 
-if(isset($_POST['language1'])||($_POST['language2'])||($_POST['language3']))
+if(isset($_POST['language1'])||(isset($_POST['language2']))||(isset($_POST['language3'])))
 {
     echo "check box selected<br>";
 }
